@@ -10,7 +10,7 @@
    <hr>
     <section id="pinBoot">
        <% @empleados.each do |empleado| %>
-      <article class="white-panel imagen"><%= image_tag empleado.avatar.url(:thumb) %>
+      <article class="white-panel imagen"><%= image_tag empleado.avatar.url(:medium) %>
         <h4 class="centrar"><%= empleado.nombre %></h4>
         <p class="centrar"><%= empleado.fechacumpleaños %></p>
         <p>

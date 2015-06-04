@@ -1,3 +1,5 @@
+$(document).on('page:change', function () {
+
  $(document).ready(function() {
 $('#pinBoot').pinterest_grid({
 no_columns: 4,
@@ -7,7 +9,7 @@ margin_bottom: 50,
 single_column_breakpoint: 700
 });
 });
-
+});
 /*
 Ref:
 Thanks to:
